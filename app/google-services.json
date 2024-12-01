@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "76871139259",
+    "project_id": "water-bottle-barcode",
+    "storage_bucket": "water-bottle-barcode.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76871139259:android:b54c2eda89ff24ac57ce9e",
+        "android_client_info": {
+          "package_name": "com.example.barcode_scanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfWn0rOX8H-q0-F2AKEFj5DVJRH1YnucQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

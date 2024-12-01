@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/b2">
+
+    <Button
+        android:id="@+id/btn_bc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="Scan Barcode"
+        android:textSize="30sp"
+        android:backgroundTint="@color/backg1"
+        android:textColor="@color/ftext1"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="or"
+        android:textSize="30sp"
+        android:textColor="@color/backg1"/>
+
+    <Button
+        android:id="@+id/btn_bc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="Enter Code"
+        android:textSize="30sp"
+        android:backgroundTint="@color/backg1"
+        android:textColor="@color/ftext1"/>
+
+</LinearLayout>

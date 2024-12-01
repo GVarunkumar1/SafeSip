@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MarkAsUsed"
+    android:background="@color/backg">
+
+
+    <TextView
+        android:id="@+id/barcodev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="@string/barcode_value"
+        android:textSize="30sp"
+        android:textColor="@color/ftext"/>
+
+    <TextView
+        android:id="@+id/barcodeval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:hint="0000000000000"
+        android:textSize="20sp"
+        android:textColorHint="@color/ftext"
+        android:textColor="@color/ftext"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/mark_as_used"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/ftext"
+        android:paddingBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textSize="30sp"
+        android:backgroundTint="@color/ftext"
+        android:textColor="@color/backg"/>
+
+</LinearLayout>

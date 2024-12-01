@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backg">#2c6778</color>
+    <color name="ftext">#aed6e1</color>
+    <color name="backg1">#3e77a9</color>
+    <color name="ftext1">#90b5d6</color>
+    <color name="scanbag">#5c5c5c</color>
+    <color name="scantxt">#c2c2c2</color>
+</resources>
